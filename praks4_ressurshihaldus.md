@@ -1,12 +1,12 @@
 | Küsimus | Linux | Windows | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
 |---|---|---|---|---|
-| Mitu protsessi kokku arvutis käib |   | 222 |   | Task Manager -> Jõudlus |
-| Milline on kõige esimesena käivitatud protsess? |   | igfxCUIServiceN.exe |   | Process Explorer -> Start Time |
-| Milliste kasutajate protsesse arvutis käib? |   |   |   |   |
-| Kui kaua on arvuti järjest töötanud (up time) ? (Alternatiivselt võib vastata ka millal (kuupäev ja kellaaeg) arvuti viimati käima pandi?)? |  | 2h 35m |  | Task Manager -> Jõudlus |
-| Milline protsess käivitati kõige hiljem (viimasena)? |  | opera.exe |  | Process Explorer -> Start Time |
-| Milline on kõige rohkem protsessoriaega võttev protsess? |  | svchost.exe |  | Process Explorer -> CPU Time |
-| Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess? |  | , 9.2/18.2 GB, |  | , Task Manager -> Jõudlus -> Mälu |
+| 1. Mitu protsessi kokku arvutis käib | 224 | 288 | ps -aux | wc -l | Task Manager -> Jõudlus -> Protsessid |
+| 2. Milline on kõige esimesena käivitatud protsess? | ? | system.exe | ? | Process Explorer -> Start Time |
+| 3. Milliste kasutajate protsesse arvutis käib? | USER, root, systemd-oom, systemd-resolve, systemd-timesync, avahi, messagebusy, syslog, kernoops, colord, rauno | ps -eo user | ? | Tegumihaldur -> Üksikasjad -> Kasutajanimi |
+| 4. Kui kaua on arvuti järjest töötanud (up time) ? (Alternatiivselt võib vastata ka millal (kuupäev ja kellaaeg) arvuti viimati käima pandi?)? | 22m | 14h 03m | uptime | Task Manager -> Jõudlus |
+| 5. Milline protsess käivitati kõige hiljem (viimasena)? | /usr/bin/gnome-shell | opera.exe | ps -aux --sort -pcpu | Process Explorer -> Start Time |
+| 6. Milline on kõige rohkem protsessoriaega võttev protsess? | /usr/bin/gnome-shell | svchost.exe | ps -aux --sort -vsz | Process Explorer -> CPU Time |
+| 7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess? | /usr/bin/gnome-shell | ? | ps -aux --sort -pcpu | ? |
 | Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |  | opera.exe |  | Process Explorer -> Working Set |
 | Kui palju füüsilisest mälust (Physical Memory) on vaba? |  | 890 MB |  | Resource Monitor -> Memory -> Physical Memory |
 | Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |  | 282.74 GB, 59% |  | Kettahaldur |
