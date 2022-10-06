@@ -17,4 +17,5 @@
 | 15. Sõber kurdab, et tema arvuti on oluliselt aeglasem kui varasemalt. Millise programmiga ja millise parameetrite abil saate tuvastada milline protsess või teenus muudab arvuti aeglaseks? | Peatan progammide töö, mis kasutavad liiga palju CPU, aga pole vajalikud |  | <code>top<code> | Tegumihaldur |
 <img width="911" alt="OS2022_praks4" src="https://user-images.githubusercontent.com/98056071/194420855-04661adb-9ff3-41a8-a671-386a8ad2bbc3.png">
 <img width="896" alt="OS2022_praks4_1" src="https://user-images.githubusercontent.com/98056071/194420867-c20ed13e-ed10-4fb0-8988-7b3b0a95011f.png">
-![OS2022_praks4_2](https://user-images.githubusercontent.com/98056071/194420875-d3b10c0a-edae-4c5a-9097-ff02563f2dc6.png)
+  
+<img width="898" alt="OS2022_praks4_2" src="https://user-images.githubusercontent.com/98056071/194420950-1fddbb6c-8d3e-42b1-a57d-a735b79c9877.png">
