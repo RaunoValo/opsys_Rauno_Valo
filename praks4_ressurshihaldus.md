@@ -1,6 +1,6 @@
 | Küsimus | Linux | Windows | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
 |---|---|---|---|---|
-| 1. Mitu protsessi kokku arvutis käib | 224 | 288 | ```ps -aux | wc -l``` | Task Manager -> Jõudlus -> Protsessid |
+| 1. Mitu protsessi kokku arvutis käib | 224 | 288 | "ps -aux | wc -l" | Task Manager -> Jõudlus -> Protsessid |
 | 2. Milline on kõige esimesena käivitatud protsess? | /sbin/init splash | system.exe | ps axo pid,cmd,comm,etime | Process Explorer -> Start Time |
 | 3. Milliste kasutajate protsesse arvutis käib? | USER, root, systemd-oom, systemd-resolve, systemd-timesync, avahi, messagebusy, syslog, kernoops, colord, rauno | DWM-1, LOCAL SERVICE, NETWORK SERVICE, rauno, SYSTEM, UMFD-0 | ps -eo user | Tegumihaldur -> Üksikasjad -> Kasutajanimi |
 | 4. Kui kaua on arvuti järjest töötanud (up time) ? (Alternatiivselt võib vastata ka millal (kuupäev ja kellaaeg) arvuti viimati käima pandi?)? | 22m | 14h 03m | uptime | Task Manager -> Jõudlus |
