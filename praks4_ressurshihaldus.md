@@ -6,7 +6,7 @@
 | 4. Kui kaua on arvuti järjest töötanud (up time) ? (Alternatiivselt võib vastata ka millal (kuupäev ja kellaaeg) arvuti viimati käima pandi?)? | 22m | 14h 03m | <code>uptime</code> | Task Manager -> Jõudlus |
 | 5. Milline protsess käivitati kõige hiljem (viimasena)? | [kworker/u4:1-events_unbound] | opera.exe | <code>ps -ef</code> | Process Explorer -> Start Time |
 | 6. Milline on kõige rohkem protsessoriaega võttev protsess? | /usr/bin/gnome-shell | svchost.exe | <code>ps -aux --sort -pcpu</code> | Process Explorer -> CPU Time |
-| 7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess? | /usr/bin/gnome-shell | ? | <code>ps -aux --sort -vsz</code> | ? |
+| 7. Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess? | /usr/bin/gnome-shell | opera.exe | <code>ps -aux --sort -vsz</code> | Process Explorer -> Virtual Size |
 | 8. Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? | /usr/bin/gnome-shell | opera.exe | <code>ps -aux --sort -pcpu</code> | Process Explorer -> Working Set |
 | 9. Kui palju füüsilisest mälust (Physical Memory) on vaba? | 1,8Gi | 890 MB | <code>free -h</code> | Resource Monitor -> Memory -> Physical Memory |
 | 10. Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? | 9.2GB & 43% | 282.74 GB, 59% | <code>df -h</code> | Kettahaldur |
